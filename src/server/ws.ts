@@ -1,5 +1,4 @@
 import io from 'socket.io'
-import http from 'http'
 import { DevProxyServer } from '.'
 import { ExpressApp } from './express'
 

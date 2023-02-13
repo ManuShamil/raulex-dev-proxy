@@ -1,5 +1,4 @@
 import http from 'http'
-import io from 'socket.io'
 
 import { ExpressApp } from './express'
 import { WebSocketServer } from './ws'
@@ -18,7 +17,7 @@ export class DevProxyServer {
     constructor( private serverSettings: IDevProxyServerSettings) {
         this.expressApp = new ExpressApp()
         this.httpServer = http.createServer( this.expressApp.getNativeApp() )
-        this.webSocketServer = new WebSocketServer( this,  serverSettings )
+        this.webSocketServer = new WebSocketServer( this,  this.serverSettings )
 
         this.expressApp.bindWebSocketServerLate( this.webSocketServer )
     }
