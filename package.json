@@ -1,7 +1,7 @@
 {
   "name": "raulex-dev-proxy",
-  "version": "1.0.0",
-  "description": "A http proxy server for your local development purposes.",
+  "version": "1.0.1",
+  "description": " A web-proxy toolkit for your local development purposes.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
