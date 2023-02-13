@@ -1,7 +1,0 @@
-POST https://starfish-app-3lguk.ondigitalocean.app/ HTTP/1.1
-content-type: application/json
-
-{
-    "id": "c6c03ada-4efc-40ac-b8b5-345bdcba6629",
-    "type": "msg"
-}
