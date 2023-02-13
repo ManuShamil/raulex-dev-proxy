@@ -1,6 +1,6 @@
 {
   "name": "raulex-dev-proxy",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": " A web-proxy toolkit for your local development purposes.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
