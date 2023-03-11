@@ -23,7 +23,7 @@ export class ExpressApp {
         this.responseStore = new ResponseStore( this, 5 * 60 * 1000 )
 
         this.expressApp.use( express.json() )
-        this.expressApp.use( cors({credentials: true, origin: [ '*' ] }) );
+        this.expressApp.use( cors({credentials: true, origin: [ '*' ] }) )
         this.expressApp.use( morgan('dev') )
 
         this.bindGateway()
